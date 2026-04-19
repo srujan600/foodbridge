@@ -1,0 +1,97 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Build & Output
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+
+# Caches
+.npm
+.eslintcache
+.stylelintcache
+.vite/
+.cache/
+.parcel-cache/
+.docusaurus/
+.fusebox/
+
+# Environment variables
+.env
+.env.test
+.env.staging
+.env.production
+.env.local
+.env.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editors / IDEs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.project
+.classpath
+.cproject
+*.la
+*.lo
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.swp
+*.core
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+.nyc_output/
+
+# Keys & Secrets
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*secret*.json
+secret*.json
+*credentials*.json
+firebase-adminsdk-*.json
+
+# Miscellaneous Configuration/Data
+config/local.json
